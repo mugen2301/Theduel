@@ -1,0 +1,13 @@
+server {
+    listen 80;
+    server_name www.theduel.in theduel.in app.theduel.in dealer.theduel.in erp.theduel.in api.theduel.in;
+
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+    }
+
+    location / {
+        return 200 "The Duel SSL bootstrap is ready.\n";
+        add_header Content-Type text/plain;
+    }
+}
