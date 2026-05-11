@@ -53,7 +53,7 @@ export function Hero() {
             Design sublimated jerseys, polos, tracksuits, hoodies, and uniforms with a premium factory workflow built for teams, dealers, and companies.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <Button href="#customize">Customize a jersey</Button>
+            <Button href="/customizer">Design Your T-Shirt</Button>
             <Button href="#products" variant="secondary">
               Explore products
             </Button>
